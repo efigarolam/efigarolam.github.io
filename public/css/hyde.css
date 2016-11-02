@@ -79,6 +79,8 @@ html {
 
 .avatar img {
   border-radius: 250px;
+  margin: 0 auto;
+  margin-bottom: 20px;
   width: 250px;
 }
 
