@@ -9,18 +9,18 @@ permalink:        pretty
 title:            'Eduardo Figarola'
 tagline:          'Developer'
 description:      'Full Stack Web Developer'
-url:              http://hyde.getpoole.com
+url:              https://eduardo.figarola.mx
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           Eduardo Figarola
+  url:            https://twitter.com/Diabulux
 
 paginate:         5
 
 # Custom vars
 version:          2.1.0
-gems:             [jekyll-paginate,jekyll-gist]
+plugins:             [jekyll-paginate,jekyll-gist]
 
 github:
   repo:           https://github.com/poole/hyde
