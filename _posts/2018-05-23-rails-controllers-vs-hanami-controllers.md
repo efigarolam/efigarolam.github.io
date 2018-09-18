@@ -2,6 +2,7 @@
 layout: post
 title: "Controllers: the Rails way vs the Hanami way"
 originally_published_at: https://sipsandbits.com/2018/05/23/rails-controllers-vs-hanami-controllers/
+description: Recently I have become interested in Hanami and so far I have really liked the architecture design and decisions that its author, Luca Guidi, has been taking until now.
 ---
 
 Recently I have become interested in [Hanami](http://hanamirb.org/) and so far I have really liked the architecture design and decisions that its author, [Luca Guidi](https://github.com/jodosha), has been taking until now.

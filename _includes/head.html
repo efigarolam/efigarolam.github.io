@@ -16,13 +16,24 @@
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  </title>
+  <!-- Meta -->
+  <meta name="description" content="Eduardo Figarola's Personal Blog" />
+  <meta name="keywords" content="software ruby rails html javascript css" />
+  <meta name="robots" content="index, follow" />
+  <meta name="twitter:card" value="summary">
+  <meta name="twitter:site" value="@diabulux">
+
+  {% if page.title == "Home" %}
+    <title>{{ site.title }} &middot; {{ site.tagline }}</title>
+
+    <meta name="twitter:title" value="{{ site.title }}">
+    <meta name="twitter:description" value="{{ site.description }}">
+  {% else %}
+    <title>{{ page.title }} &middot; {{ site.title }}</title>
+
+    <meta name="twitter:title" value="{{ page.title }}">
+    <meta name="twitter:description" value="{{ page.description }}">
+  {% endif %}
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css">

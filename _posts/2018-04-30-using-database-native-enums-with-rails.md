@@ -2,6 +2,7 @@
 layout: post
 title: "Enums with Rails & ActiveRecord: an improved way"
 originally_published_at: https://sipsandbits.com/2018/04/30/using-database-native-enums-with-rails/
+description: ActiveRecord Enums are a really good tool to use when you need that certain model's attribute to have a finite number of possible values.
 ---
 
 ## Overview

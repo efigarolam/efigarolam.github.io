@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello World!
+description: The very first post.
 ---
 
 Hi there! Welcome to my very first technical blog. I will be writting about the stuff I like to do most: **programming!**
