@@ -36,9 +36,15 @@
   {% endif %}
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ "public/css/poole.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "public/css/syntax.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "public/css/hyde.css" | prepend: site.baseurl }}">
+  {% if jekyll.environment == "production" %}
+    <link rel="stylesheet" href="{{ "/public/css/poole.css" | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/public/css/syntax.css" | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/public/css/hyde.css" | prepend: site.url }}">
+  {% else %}
+    <link rel="stylesheet" href="{{ "public/css/poole.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "public/css/syntax.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "public/css/hyde.css" | prepend: site.baseurl }}">
+  {% endif %}
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Lato">
 
   <!-- Icons -->
